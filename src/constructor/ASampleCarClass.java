@@ -1,12 +1,12 @@
 package constructor;
 
-public class ASampleContructor {
+public class ASampleCarClass {
 	
 	private int totalGears;
 	private int totalSeats;
 	private int totaldoors;
 	
-	public ASampleContructor(int gear, int seats, int doors){
+	public ASampleCarClass(int gear, int seats, int doors){
 		this.totalGears = gear;
 		this.totalSeats = seats;
 		this.setTotaldoors(doors);

@@ -4,13 +4,11 @@ public class TestConstructors {
 
 	public static void main(String[] args) {
 
-		ASampleContructor newConstructor = new ASampleContructor(10, 2, 2);
+		ASampleCarClass newCarConstructor = new ASampleCarClass(10, 2, 2);
 		
-		
-
-		Integer doors = newConstructor.getTotaldoors();
-		Integer gears = newConstructor.getTotalGears();
-		Integer seats = newConstructor.getTotalSeats();
+		Integer doors = newCarConstructor.getTotaldoors();
+		Integer gears = newCarConstructor.getTotalGears();
+		Integer seats = newCarConstructor.getTotalSeats();
 		
 		System.out.println(" doors : "+ doors +"\n gears : "+ gears +"\n seats : "+ seats);
 	}
